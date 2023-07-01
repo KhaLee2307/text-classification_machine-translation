@@ -3,14 +3,14 @@
   - This is a practice exercise in CS221 - Natural Language Processing (University of Information Technology - VNUHCM)
   - We build a standard process in building models to solve NLP problems (Text Classification and Machine Translation):
     1. Preprocessing
-      - Vietnamese: Normalize unicode, Standardize Vietnamese punctuation, Separating Vietnamese words, Convert lowercase letters, Sentence normalization
+      - Vietnamese: Normalize Unicode, Standardize Vietnamese punctuation, Separating Vietnamese words, Convert lowercase letters, Sentence normalization
       - English: Punctuation Standardization, Convert lowercase letters
     2. Prepare data: Divide the dataset into train, validation, and test sets.
     3. Word embedding: a technique in natural language processing (NLP) that represents words in a mathematical form, typically as vectors, which can be easily processed by machine learning algorithms. 
       - There are several methods of word embedding: One-Hot Encoding, Count-based Embedding (LSA), Prediction-based Embedding (Word2Vec and GloVe), Contextual Embedding (BERT)
       - In this project, we use 2 popular methods: CountVectorizer and TfIdfVectorizer.
     4. Model selection and training:
-      - Text Classification: Support Vector Machine (SVM), Naivie Bayes (NB), Logistic Regression (LR)
+      - Text Classification: Support Vector Machine (SVM), Naive Bayes (NB), Logistic Regression (LR)
       - Machine Translation: Encoder-Decoder LSTM (because of resource and time limitations I only train on 100 epochs and a small portion of data)
     5. Evaluation:
       - Text Classification: Compare the performance of the models on 4 metrics: accuracy, precision, recall, f1_score (specific results are detailed in the notebook)
